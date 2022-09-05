@@ -1,0 +1,27 @@
+{
+  "name": "Canva Pro",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "./html/popup.html"
+  },
+  "description": "Usa elementos y fotos de Canva PRO sin pagar!",
+  "background": {
+    "service_worker": "./js/background.js"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "icons": {
+    "16": "./img/logo/16.png",
+    "32": "./img/logo/32.png",
+    "48": "./img/logo/48.png",
+    "128": "./img/logo/128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.canva.com/design/*"],
+      "js": ["./js/pagescript.js"]
+    }
+  ]
+}
