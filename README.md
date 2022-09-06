@@ -12,4 +12,4 @@ A chrome extension to use Canva PRO elements and pictures
 
 You are all set, give it a go and report bugs in the issues tab
 
-##This extension will work only when using Canva in Spanish (planning to add multilanguage support)
+This extension will work only when using Canva in Spanish (planning to add multilanguage support)
